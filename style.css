@@ -1,0 +1,42 @@
+h1, p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.list {
+  padding: 15px;
+}
+.child-wrap {
+  margin: 0 0 0 15px;
+}
+.list-item {
+  padding: 10px;
+  display: block;
+}
+.list-item {
+  text-decoration: none;
+  color: #386ca5;
+  background: #e5e5e5;
+}
+.list-item:hover {
+  background: #ababab;
+}
+.list-item i {
+  margin: 0 15px 0 0;
+}
+.list-item i .plus,
+.list-item i.open .minus{
+  display: none
+}
+
+.list-item i.open .plus,
+.list-item i .minus{
+  display: inline
+}
+.child-wrap {
+  display: none;
+}
+.child-wrap.active {
+  display: block;
+}
+.child-wrap .list-item {
+  background: #fcfcfc;
+}
